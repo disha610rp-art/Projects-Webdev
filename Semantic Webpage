@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+
+<body style="background-color: black; color: aqua; font-family: Arial, sans-serif;">
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Disha Patel</h2>
+        <p>
+            Hi! I’m <strong>Disha Patel</strong>, an undergraduate student passionate about technology and coding.
+            I am keen to learning new things, solving real world problems, and building creative projects.
+            <br><br>
+            My goal is to grow as a developer, build cool projects, and keep exploring the world of tech and GameDev.
+        </p>
+    </section>
+
+    <footer>
+        <p>— Disha Patel</p>
+    </footer>
+
+</body>
+
+</html>
