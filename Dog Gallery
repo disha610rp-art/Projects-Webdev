@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Gallery</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Dog Gallery</h1>
+    <div class="gallery">
+        <img src="https://www.petlandflorida.com/wp-content/uploads/2019/09/Petland_Florida_Cavalier_King_Charles_Spaniel_puppy.jpg" alt="Dog 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Z54yGoc1JOl6cQEDMBkIZZK9-kg_YVxqVA&s" alt="Dog 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp-vAfxv5J5jp3e7ejlw_BmBSVwmJEUYpdg&s" alt="Dog 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhjwiGZxy1bUpfpYWrv6o2veMb6c4OLIXpA&s" alt="Dog 4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfZ8EkW4cT0hJUFz8KVj-yttaWyVuTOkd3A&s" alt="Dog 5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwN4ITn8OB37mz6V9ODjWORNbuAMmQy2_RsA&s" alt="Dog 6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfNyudSsSxQr7xFvSIxPVoF8UVFeZylyYFg&s" alt="Dog 7">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlzn5-Q9XQ4ItwfEV4XmqdCMUe7AfJL4Q9A&s" alt="Dog 8">
+        <img src="https://dogtime.com/wp-content/uploads/sites/12/2020/11/GettyImages-512366437-e1688677726208.jpg?w=1024" alt="Dog 9">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSCBJeOPUXkH57T9QNTtZR08LpkQwo7K2rA&s" alt="Dog 10">
+ 
+    </div>
+</body>
+</html>
