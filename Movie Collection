@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Movie Collection</h1>
+    <table border>
+        <caption> Favorite Movies</caption>
+         <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>Directed By</th>
+        </tr>
+        <tr>
+            <td>Oddity</td>
+            <td>Horror</td>
+            <td>2024</td>
+            <td>Damian McCarthy</td>
+        </tr>
+        <tr>
+            <td>The shining</td>
+            <td>Horror</td>
+            <td>1980</td>
+            <td>Stanley Kubrick</td>
+        </tr>
+        <tr>
+            <td>The unborn</td>
+            <td>Horror</td>
+            <td>2009</td>
+            <td>David S. Goyer</td>
+        </tr>
+    </table>
+</body>
+</html>
