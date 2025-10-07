@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>
+    Hi, I'm Disha Patel. I'm passionate about web development and love exploring new technologies. 
+    In my free time, I enjoy musical activities like sing , dancing and playing instruments guitar and reading about space science.
+  </p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdf0BJ93PchESSAKRazmQRHnR6giQUCKu2Tg&s" alt="Sample Image" width="300">
+  <h2>My Favorite Website</h2>
+  <a href="https://www.scaler.com" target="_blank">Visit Scaler</a>
+
+</body>
+</html>
