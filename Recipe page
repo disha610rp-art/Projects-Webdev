@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1,h2 {
+      color: brown;
+    }
+    ul {
+      color: green;
+    }
+    ol {
+      color: blue;
+    }
+    p { 
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <section>
+  <h1> Delicious Pancakes</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcGOfa4R2Qy7ezxDwc1geT29WF_0DvY8lVQ&s" alt="pancake image">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2 cup all-purpose flour</li>
+    <li>2 tablespoon sugar </li>
+    <li>1/2 teaspoon baking powder</li>
+    <li>salt according to taste</li>
+    <li>2 cup milk</li>
+    <li>3 tablespoon melted butter</li>
+    <li>yeast powder </li>
+  </ul>
+  <h2> Instructions </h2>
+  <ol> 
+    <li> In a bowl, mix flour, sugar, baking powder and salt.</li>
+    <li> In another bowl, whisk milk, melted butter and egg.</li>
+    <li> Pour the wet ingredients into the dry ingredients and stir until smooth.</li>
+    <li> Heat a non-stick skillet over medium heat and lightly grease it.</li>
+    <li> Cook until bubbles form on the surface, then flip and cook until golden
+  </ol>
+
+  <p> Enjoy your tasty pancakes! </p>
+  </section>
+</body>
+</html>
