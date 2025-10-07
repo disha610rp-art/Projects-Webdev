@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> My Weekend Plans.</h1>
+    <ul>
+        <li>
+          Outdoor Activities: 
+          <ol>
+            <li>
+                morning walk.
+            </li>
+            <li>
+               visiting nearby fields.
+            </li>
+            <li>
+                outdoor games.
+            </li>   
+          </ol> 
+        </li>
+
+        <li>
+            Movies to Watch:
+            <ol>
+                <li>
+                    Incantation
+                </li>
+                <li>
+                    Harry Potter
+                </li>
+                <li>
+                    Gone Girl
+                </li>
+            </ol>
+        </li>
+        <li>
+            Foods to Try:
+            <ol>
+                <li>
+                    tiramisu
+                </li>
+                <li>
+                    Tacos
+                </li>
+                <li>
+                    Pasta
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <h1> Top Priorities</h1>
+    <ol>
+        <li>
+            Complete the project report.
+        </li>
+        <li>
+            Prepare for the upcoming exam.
+        </li>
+        <li>
+            Organize the room.
+        </li>
+    </ol>
+</body>
+</html>
