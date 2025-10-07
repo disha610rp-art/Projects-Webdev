@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <div class="head"></div>
+  <div class="left"></div>
+  <div class="center">
+    <div class="centop"></div>
+    <div class="centown"></div>
+  </div>
+  <div class="right"></div>
+</div>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  .container {
+    width: 1000px;
+    height: 1000px;
+    margin: 3px;
+    display: grid;
+    grid-template-rows: 1fr 4fr;   
+    grid-template-columns: 1fr 1fr 1fr; 
+    background: rgb(70, 67, 104); 
+    padding: 2px;
+    box-sizing: border-box;
+  }
+
+  .head {
+    grid-column: 1 / 4;
+    background: rgb(128, 0, 28);
+  }
+
+  .left {
+    background: rgb(0, 255, 98);
+  }
+
+  .center {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .centop {
+    background: cyan;
+  }
+
+  .centown {
+    background: magenta;
+  }
+
+  .right {
+    background: pink;
+  }
+</style>
+
+</body>
+</html>
